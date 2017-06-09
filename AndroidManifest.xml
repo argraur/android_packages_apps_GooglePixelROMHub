@@ -34,9 +34,9 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:hardwareAccelerated="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.settings.SYSTEM_UPDATE_SETTINGS" />
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
