@@ -38,7 +38,7 @@ public class PaServer implements Server {
 
     private static final String TAG = Constants.BASE_TAG + "PaServer";
 
-    private static final String URL = "http://api.aospa.co/updates/%s";
+    private static final String URL = "https://api.pixelrom.xyz/ota/%s";
 
     private String mDevice = null;
     private String mError = null;
